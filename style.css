@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, var(--gr21-main-font-family, sans-serif);
+}
+
+
+img {
+    width: 100%;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 54px;
+}
+
+.header-left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-left-menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    gap: 6px;
+}
+
+.header-left-menu div {
+    display: none;
+}
+
+.logo {
+    width: 70px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.header-right > nav {
+    display: none;
+}
+
+.header-right .fa-magnifying-glass {
+    font-size: 15px;
+}
+
+/* Main */
+.main-container {
+    padding: 0 20px;
+}
+
+.grab-title > h1 {
+    margin-top: 40px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.grab-title > p {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 26px;
+}
+
+.btn-container {
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 19px 118px;
+    column-gap: 10px;
+}
+
+.btn .btn-top {
+    background-color: #00b14f;
+    color: #fff;
+}
+
+.btn .btn-buttom {
+    background-color:  #eef9f9;
+    color: black;
+    padding: 19px 108px;
+    margin: 10px 0 30px 0;
+}
+
+
+/* Overview */
+.overview-setting h2 {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.why-grab {
+    border-top: 2px solid black;
+}
+
+.overview-content p {
+    font-size: 24px;
+    padding: 20px 0 60px 0;
+}
+
+.grab-number p {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 35px;
+}
+
+.grab-number h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.grab-reason p {
+    font-size: 17px;
+    padding: 35px 0 35px 0;
+}
+
+
+.reason-separation {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 20px;
+}
+
+/* Media Query */
+@media screen and (min-width: 768px) {
+    header {
+        border-bottom: 1px solid rgb(220, 220, 220);
+        height: 69px;
+    }
+
+    .header-left-menu {
+        font-size: 32px;
+    }
+
+    .header-left-menu div {
+        display: block;
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+    
+    .header-right  nav {
+        display: flex;
+        gap: 24px; 
+    }
+
+    .main-container {
+        padding: 0 60px;
+    }
+
+
+    /* Main Image */
+    .main-image > img{
+        background-position: 50%;
+        background-size: cover;
+        height: 365px;
+    }   
+}
+
+@media screen and (min-width: 1025px) {
+    .main-content {
+        display: flex;
+    }
+
+    .main-container {
+        padding: 0 78px;
+    }
+    .grab-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+      }
+
+      .grab-title p {
+        font-size: 44px;
+      }
+
+      .main-image {
+        width: 49%;
+      }
+
+      .main-image img {
+        
+        margin-bottom: 70px;
+      }
+
+      .btn {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .btn-container {
+        border: none;
+        border-radius: 28px;
+        font-size: 16px;
+        font-weight: 600;
+        row-gap: 10px;
+    }
+
+    .btn .btn-top {
+        padding: 19px 32px;
+    }
+
+    .btn .btn-buttom {
+        background-color:  #eef9f9;
+        color: black;
+        padding: 19px 40px;
+        margin: auto;
+    }
+
+    /* Overview */
+    .overview-section {
+        display: flex;
+        padding-top: 40px;
+    }
+
+    .overview {
+        width: 50%;
+    }
+
+    .overview-content {
+        width: 49%;
+    }
+
+    .overview-content p {
+        font-size: 30px;
+    }
+
+    /* Reason */
+    .reason-container {
+        display: flex;
+        align-items: center;
+    }
+}
+   
+
+
+
