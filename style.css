@@ -203,7 +203,7 @@ header {
       }
 
       .main-image img {
-        
+        object-fit: cover;
         margin-bottom: 70px;
       }
 
