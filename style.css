@@ -174,7 +174,7 @@ header {
     /* Main Image */
     .main-image > img{
         background-position: 50%;
-        background-size: cover;
+        object-fit: cover;
         height: 365px;
     }   
 }
@@ -203,7 +203,7 @@ header {
       }
 
       .main-image img {
-        object-fit: cover;
+        
         margin-bottom: 70px;
       }
 
