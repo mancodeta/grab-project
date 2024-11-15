@@ -141,6 +141,10 @@ nav {
 /* end */
 
 @media screen and (min-width: 768px) {
+    header {
+        border-bottom: 1px solid #ddd;
+    }
+
     .header-right {
         height: 69px;
     }
@@ -184,5 +188,39 @@ nav {
     .main-image img {
         object-fit: cover;
         height: 320px;
+    }
+
+    .tablet-view div {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 685px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .main-container {
+        display: flex;
+    }
+
+    .tablet-view div {
+        max-width: 800px;
+    }
+
+    .top-content p {
+        font-size: 44px;
+        font-weight: 600;
+    }
+
+    .main-button {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-button .left-button {
+        padding: 20px 35px;
+    }
+
+    .main-button .right-button {
+        padding: 20px 40px;
     }
 }
