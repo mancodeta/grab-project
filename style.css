@@ -200,10 +200,17 @@ nav {
 @media screen and (min-width: 1025px) {
     .main-container {
         display: flex;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto 0 auto;
     }
 
-    .tablet-view div {
-        max-width: 800px;
+    .laptop-view {
+        width: 60%;
+    }
+
+    .main-image img {   
+        height: auto;
     }
 
     .top-content p {
@@ -223,4 +230,18 @@ nav {
     .main-button .right-button {
         padding: 20px 40px;
     }
+
+    .overview {
+        width: 40%;
+    }
+
+    .overview-content {
+        width: 50%;
+    }
+
+    .overview-border {
+        border-top: 2px solid #000000;
+    }
+
+    
 }
