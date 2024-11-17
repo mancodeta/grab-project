@@ -133,6 +133,10 @@ nav {
     padding-top: 35px;
 }
 
+.third-sub {
+    padding-top: 35px;
+}
+
 .grab-reason {
     padding: 35px 0 35px 0;
     border-bottom: 2px solid #e5e9f0;
@@ -273,5 +277,54 @@ nav {
         font-size: 28px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .grabfood-border {
+        border-top: 2px solid #000000;
+    }
+
+    .why-grab {
+        max-width: 900px;
+    }
+
+    .reason-setting {
+        display: flex;
+        justify-content: space-between;
+        max-width: 900px;
+        align-items: center;
+        border-bottom: 2px solid #e5e9f0;
+    }
+
+    .grab-space {
+        max-width: 10%;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .grab-sub {
+        max-width: 40%;
+        padding: 50px 0 50px 0;
+       
+    }
+        
+    .reason-container {
+        font-size: 36px;
+    }
+
+    .grab-reason {
+        max-width: 50%;
+        font-size: 19px;
+        line-height: 1.5rem;
+        border-bottom: none;
+    }
+
+    .third-sub {
+        padding: 0;
+    }
+
+    .grab-reason-third {
+        max-width: 50%;
+        font-size: 19px;
+        line-height: 1.5rem;
     }
 }
