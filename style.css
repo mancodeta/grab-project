@@ -200,28 +200,26 @@ nav {
 @media screen and (min-width: 1025px) {
     .main-container {
         display: flex;
+        justify-content: space-between;
     }
 
-    .mobile-view {
+    /* .mobile-view {
         margin: 0;
-    }
-
-    .tablet-view {
-        max-width: 600px;
-    }
+    } */
 
     .laptop-view {
-        width: 400px;
+        max-width: 400px;
         margin: auto;
+        
     }
 
     .main-image img {
-        max-width: 100%;
-  height: auto;
+        min-width: 100%;
+        height: auto;
     }
 
     .top-content p {
-        font-size: 44px;
+        font-size: 42px;
         font-weight: 600;
     }
 
