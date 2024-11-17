@@ -55,6 +55,10 @@ nav {
     margin: 0 20px 0 20px;
 }
 
+.laptop-view {
+    margin: 0 20px 0 20px;
+}
+
 .grab-title {
     padding-top: 2.5rem;
 }
@@ -190,31 +194,34 @@ nav {
         height: 320px;
     }
 
-    .tablet-view {
+    .mobile-view {
         margin-left: auto;
         margin-right: auto;
         max-width: 685px;
     }
+
+    .laptop-view {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 685px;
+    }
+
 }
 
 @media screen and (min-width: 1025px) {
     .main-container {
         display: flex;
-        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
     }
 
-    /* .mobile-view {
-        margin: 0;
-    } */
-
     .laptop-view {
-        max-width: 400px;
-        margin: auto;
-        
+        max-width: 40%;
     }
 
     .main-image img {
-        min-width: 100%;
+        width: 100%;
         height: auto;
     }
 
@@ -234,5 +241,37 @@ nav {
 
     .main-button .right-button {
         padding: 20px 40px;
+    }
+
+    .overview-setting {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+        
+    }
+    
+    .overview {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        margin-top: 60px;
+        border-top: 2px solid #000000;
+        padding-top: 60px;
+    }
+
+    .overview-content {
+        width: 50%;
+        margin-top: 60px;
+        border-top: 2px solid #000000;
+        padding-top: 60px;
+    }
+
+    .overview-content {
+        font-size: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
